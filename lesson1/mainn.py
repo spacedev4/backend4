@@ -54,7 +54,7 @@ new_emp_id = emp_manager.insert(
     salary=000.000,
     department_id=1
 )
-print(f"Добавлен ID: {new_emp_id}")
+print(f"ID qoshish: {new_emp_id}")
 
 employee = emp_manager.get(new_emp_id, id_column="employee_id")
 print(f"malumotlar: {employee}")
