@@ -34,7 +34,7 @@ async def command_start_handler(message: Message) -> None:
     await message.answer(result.text)
 
 # /dollar ga dollar kursini chiqarib berish
-
+# oldingi darsga karab yasalgan
 
 import requests
 
@@ -51,7 +51,7 @@ async def command_start_handler(message: Message) -> None:
 
 # /havo ga havo haqida malumot chiqarib berish
 
-import python_weather
+import python_weather # pypi dan topdim
 
 @dp.message(Command('havo'))
 
